@@ -1,17 +1,17 @@
 function firstChar(text) {
-   let res = text.split("")[0]
-  res = String(res)  
-  if(res == "" or res == " ")
-  {
-    return "";
-  }
-  else
-  {
-    return res;   
-  } 
+  for(let i=0; i<text.length; i++)
+	  {
+		  let value = text.charAt(i)
+		if(value != " ")
+		{
+			return value;
+		}
+	  }      
+  	let arr = ""  
+	return arr;     
 }
 
-// Do not change the code below
+Do not change the code below
 
 const text = prompt("Enter text:");
 alert(firstChar(text));
