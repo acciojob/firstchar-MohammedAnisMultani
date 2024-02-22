@@ -1,5 +1,14 @@
 function firstChar(text) {
-  // your code here
+   let res = text.split("")[0]
+  res = String(res)  
+  if(res == "" or res == " ")
+  {
+    return "";
+  }
+  else
+  {
+    return res;   
+  } 
 }
 
 // Do not change the code below
