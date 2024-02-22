@@ -11,7 +11,7 @@ function firstChar(text) {
 	return arr;     
 }
 
-Do not change the code below
+// Do not change the code below
 
 const text = prompt("Enter text:");
 alert(firstChar(text));
